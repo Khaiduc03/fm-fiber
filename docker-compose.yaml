@@ -2,7 +2,7 @@ version: "3.8"
 services:
   fiber:
     # container_name: fm-fiber
-    image: mujag/fm-fiber:lasted	
+    image: mujag/fm-fiber:prod	
     ports:
       - ${SERVER_PORT}:7000
     depends_on:
